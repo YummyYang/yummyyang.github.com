@@ -5,32 +5,23 @@ tagline: This site is a support for you.
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## R
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
+In `Rdemos` remember to specify your own environment if under Linux:
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+      status: beginner 
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+The progress of learning is still unfinished. 
+ 
+## Perl 
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+This blog contains sample codes which help learn bioinformatics and parse data.
+When you don't need the samples anymore just delete the `MyBioPerl` folder.
 
-    $ rm -rf _posts/core-samples
+      status: junior 
 
-Here's a sample "posts list".
+Here's a sample "list with bug".
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +29,12 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+The progress of learning is still unfinished. 
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+## To-Do: Python
+
+The progress of learning is still unfinished 
+If you'd like to be added as a contributor, [please fork](http://github.com/YummyYang/MyBioPerl)!
+We need to clean the codes, make them better.
 
 
