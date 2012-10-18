@@ -4,7 +4,7 @@
  <title>Yummy Blog</title>
  <link href="http://yummyyang.github.com/atom.xml" rel="self"/>
  <link href="http://yummyyang.github.com"/>
- <updated>2012-10-18T08:44:26+08:00</updated>
+ <updated>2012-10-18T09:05:06+08:00</updated>
  <id>http://yummyyang.github.com</id>
  <author>
    <name>Yummy Yang</name>
@@ -13,10 +13,26 @@
 
  
  <entry>
-   <title>Start Here</title>
-   <link href="http://yummyyang.github.com/lessons/2012/10/18/start-here"/>
+   <title>For memory</title>
+   <link href="http://yummyyang.github.com/memory/2012/10/18/start-here"/>
    <updated>2012-10-18T00:00:00+08:00</updated>
-   <id>http://yummyyang.github.com/lessons/2012/10/18/start-here</id>
+   <id>http://yummyyang.github.com/memory/2012/10/18/start-here</id>
+   <content type="html">&lt;p&gt;For memory.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Start Here</title>
+   <link href="http://yummyyang.github.com/2012/10/18/start-here"/>
+   <updated>2012-10-18T00:00:00+08:00</updated>
+   <id>http://yummyyang.github.com/2012/10/18/start-here</id>
+   <content type="html">&lt;p&gt;Liquid error: No such file or directory - /home/yummy/github/web/yummyyang.github.com/_posts/core-samples/_includes For memory.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Jekyll Introduction</title>
+   <link href="http://yummyyang.github.com/2011/12/29/jekyll-introduction"/>
+   <updated>2011-12-29T00:00:00+08:00</updated>
+   <id>http://yummyyang.github.com/2011/12/29/jekyll-introduction</id>
    <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;
@@ -198,14 +214,9 @@ categories : [lessons, beginner]
 &lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;&lt;br /&gt;Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site&amp;#8217;s data.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Rending Page/Post Content in a Template&lt;/strong&gt;&lt;br /&gt;There is a special variable in all templates named : &lt;code&gt;content&lt;/code&gt;. The &lt;code&gt;content&lt;/code&gt; variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;...
-&amp;lt;body&amp;gt;
-  &amp;lt;div id=&quot;sidebar&quot;&amp;gt; ... &amp;lt;/div&amp;gt;
-  &amp;lt;div id=&quot;main&quot;&amp;gt;
-    &amp;#123;{content}&amp;#125;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/body&amp;gt;
-...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Liquid error: No such file or directory - /home/yummy/github/web/yummyyang.github.com/_posts/core-samples/_includes&lt;/p&gt;
+
 &lt;h3 id='subtemplates'&gt;Sub-Templates&lt;/h3&gt;
 
 &lt;p&gt;Sub-templates are exactly templates with the only difference being they define another &amp;#8220;root&amp;#8221; layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.&lt;/p&gt;
