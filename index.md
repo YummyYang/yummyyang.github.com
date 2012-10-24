@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hello my codes!
-tagline: This site is a support for you.
+tagline: This site is for you.
 ---
 {% include JB/setup %}
 
