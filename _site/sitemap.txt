@@ -8,6 +8,4 @@ http://yummyyang.github.com/sitemap.txt
 http://yummyyang.github.com/archive.html
 
 http://yummyyang.github.com/memory/2012/10/18/start-here
-http://yummyyang.github.com/2012/10/18/start-here
-http://yummyyang.github.com/2011/12/29/jekyll-introduction
 http://yummyyang.github.com/lessons/2011/12/29/jekyll-introduction
