@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>
       
-        Hello codes! - 
+        Perl Program List - 
       
       Yummy Blog
     </title>
@@ -144,43 +144,251 @@
     <div class="container">
       <div class="content">
         
-<div class="page-header-wrapper">
-	<div class="page-header">
-  		<h1>Hello codes!  <small>This site is for you.</small></h1>
-  	</div>
+<div class="page-header">
+  <h1>
+    Perl Program List 
+    
+      <small>code for bioinformatics</small>
+    
+  </h1>
 </div>
 
 <div class="row">
-  <div class="span12">
-    <h2 id='r'>R</h2>
+  <div class="span8">
+    <h2 id='mybioperl'>MyBioPerl</h2>
 
-<p>In <code>Rdemos</code> remember to specify your own environment if under Linux:</p>
+<p>The <code>MyBioPer</code> is my bio perl codes.</p>
 
-<pre><code>  status: beginner </code></pre>
+<pre><code>status : in the initial stage</code></pre>
 
-<p>The progress of learning is still unfinished.</p>
-
-<h2 id='perl'>Perl</h2>
-
-<p>This blog contains sample codes which help learn bioinformatics and parse data. When you don&#8217;t need the samples anymore just delete the <code>MyBioPerl</code> folder.</p>
-
-<pre><code>  status: junior </code></pre>
-
-<p>Here&#8217;s a sample &#8220;list &#8220;:</p>
+<p>Perl Program List:</p>
 <ul class='posts'>
   
-    <li><span>01 Nov 2012</span> &raquo; <a href='/perl/2012/11/01/perl-program-list'>Perl Program List</a></li>
   
-    <li><span>18 Oct 2012</span> &raquo; <a href='/memory/2012/10/18/start-here'>For memory</a></li>
+  <ul>
+      
+    
+
+
   
-    <li><span>29 Dec 2011</span> &raquo; <a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
+    
+      
+      	
+      	<li><a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
+      	
+      
+    
+  
+
+
+
+  </ul>
+  
+  
+  
+  <ul>
+      
+    
+
+
+  
+    
+      
+      	
+      	<li class='active'><a href='/perl/2012/11/01/perl-program-list' class='active'>Perl Program List</a></li>
+      	
+      
+    
+  
+
+
+
+  </ul>
+  
+  
+  
+  <ul>
+      
+    
+
+
+  
+    
+      
+      	
+      	<li class='active'><a href='/perl/2012/11/01/perl-program-list' class='active'>Perl Program List</a></li>
+      	
+      
+    
+  
+
+
+
+  </ul>
+  
+  
+  
+  <ul>
+      
+    
+
+
+  
+    
+      
+      	
+      	<li><a href='/memory/2012/10/18/start-here'>For memory</a></li>
+      	
+      
+    
+  
+
+
+
+  </ul>
+  
+  
+  
+  <ul>
+      
+    
+
+
+  
+    
+      
+      	
+      	<li><a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
+      	
+      
+    
+  
+
+
+
+  </ul>
+  
+  
+  
+  <ul>
+      
+    
+
+
+  
+    
+      
+      	
+      	<li><a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
+      	
+      
+    
+  
+
+
+
+  </ul>
+  
+  
+  
+  <ul>
+      
+    
+
+
+  
+    
+      
+      	
+      	<li><a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
+      	
+      
+    
+  
+
+
+
+  </ul>
+  
   
 </ul>
-<p>The progress of learning is still unfinished.</p>
+<h2 id='cg_rich'>CG Rich:</h2>
 
-<h2 id='todo_python'>To-Do: Python</h2>
+<pre><code>code:
+sub cg_percentage{
+	$dna = shift;
+	return (int (100 * ($dna =~ tr/CGcg//)/(length $dna))).&quot;%&quot;;
+}	
+my $dna = &quot;TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT&quot;;
+print &quot;cg percentage:&quot;.cg_percentage($dna).&quot;\n&quot;;</code></pre>
+    <hr>
+    <div class="pagination btn-group">
+      
+        <a class="btn prev" href="/memory/2012/10/18/start-here" title="For memory">&larr; Previous</a>
+      
+        <a class="btn" href="/archive.html">Archive</a>
+      
+        <a class="btn next disabled">Next &rarr;</a>
+      
+    </div>
+    <hr>
+    
 
-<p>The progress of learning is still unfinished. If you&#8217;d like to be added as a contributor, please <a href='http://github.com/YummyYang/MyBioPerl'>fork</a>! We need to clean the codes, and make them better.</p>
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'yummyblog'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <section>
+      <h4>Published</h4>
+      <div class="date"><span>01 November 2012</span></div>
+    </section>
+    
+      <section>
+        <h4>Category</h4>
+        <span class="category">
+          perl
+        </span>
+      </section>
+         
+    
+      <section>
+        <h4>Tags</h4>
+        <ul class="tag_box">
+          
+          
+
+
+  
+     
+    	<li><a href="/tags.html#perl-ref">perl <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#bioinformatics-ref">bioinformatics <span>1</span></a></li>
+    
+  
+
+
+
+        </ul>
+      </section>
+             
   </div>
 </div>
 

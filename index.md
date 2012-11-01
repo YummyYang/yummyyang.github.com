@@ -21,7 +21,7 @@ When you don't need the samples anymore just delete the `MyBioPerl` folder.
 
       status: junior 
 
-Here's a sample "list ".(with some bug)
+Here's a sample "list ":
 
 <ul class="posts">
   {% for post in site.posts %}

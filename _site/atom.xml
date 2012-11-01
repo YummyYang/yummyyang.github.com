@@ -4,7 +4,7 @@
  <title>Yummy Blog</title>
  <link href="http://yummyyang.github.com/atom.xml" rel="self"/>
  <link href="http://yummyyang.github.com"/>
- <updated>2012-11-01T23:29:37+08:00</updated>
+ <updated>2012-11-02T00:34:27+08:00</updated>
  <id>http://yummyyang.github.com</id>
  <author>
    <name>Yummy Yang</name>
@@ -19,7 +19,170 @@
    <id>http://yummyyang.github.com/perl/2012/11/01/perl-program-list</id>
    <content type="html">&lt;h2 id='mybioperl'&gt;MyBioPerl&lt;/h2&gt;
 
-&lt;p&gt;Perl Program List:&lt;/p&gt;</content>
+&lt;p&gt;The &lt;code&gt;MyBioPer&lt;/code&gt; is my bio perl codes.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;status : in the initial stage&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Perl Program List:&lt;/p&gt;
+&lt;ul class='posts'&gt;
+  
+  
+  &lt;ul&gt;
+      
+    
+
+
+  
+    
+      
+      	
+      	&lt;li&gt;&lt;a href='/lessons/2011/12/29/jekyll-introduction'&gt;Jekyll Introduction&lt;/a&gt;&lt;/li&gt;
+      	
+      
+    
+  
+
+
+
+  &lt;/ul&gt;
+  
+  
+  
+  &lt;ul&gt;
+      
+    
+
+
+  
+    
+      
+      	
+      	&lt;li class='active'&gt;&lt;a href='/perl/2012/11/01/perl-program-list' class='active'&gt;Perl Program List&lt;/a&gt;&lt;/li&gt;
+      	
+      
+    
+  
+
+
+
+  &lt;/ul&gt;
+  
+  
+  
+  &lt;ul&gt;
+      
+    
+
+
+  
+    
+      
+      	
+      	&lt;li class='active'&gt;&lt;a href='/perl/2012/11/01/perl-program-list' class='active'&gt;Perl Program List&lt;/a&gt;&lt;/li&gt;
+      	
+      
+    
+  
+
+
+
+  &lt;/ul&gt;
+  
+  
+  
+  &lt;ul&gt;
+      
+    
+
+
+  
+    
+      
+      	
+      	&lt;li&gt;&lt;a href='/memory/2012/10/18/start-here'&gt;For memory&lt;/a&gt;&lt;/li&gt;
+      	
+      
+    
+  
+
+
+
+  &lt;/ul&gt;
+  
+  
+  
+  &lt;ul&gt;
+      
+    
+
+
+  
+    
+      
+      	
+      	&lt;li&gt;&lt;a href='/lessons/2011/12/29/jekyll-introduction'&gt;Jekyll Introduction&lt;/a&gt;&lt;/li&gt;
+      	
+      
+    
+  
+
+
+
+  &lt;/ul&gt;
+  
+  
+  
+  &lt;ul&gt;
+      
+    
+
+
+  
+    
+      
+      	
+      	&lt;li&gt;&lt;a href='/lessons/2011/12/29/jekyll-introduction'&gt;Jekyll Introduction&lt;/a&gt;&lt;/li&gt;
+      	
+      
+    
+  
+
+
+
+  &lt;/ul&gt;
+  
+  
+  
+  &lt;ul&gt;
+      
+    
+
+
+  
+    
+      
+      	
+      	&lt;li&gt;&lt;a href='/lessons/2011/12/29/jekyll-introduction'&gt;Jekyll Introduction&lt;/a&gt;&lt;/li&gt;
+      	
+      
+    
+  
+
+
+
+  &lt;/ul&gt;
+  
+  
+&lt;/ul&gt;
+&lt;h2 id='cg_rich'&gt;CG Rich:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;code:
+sub cg_percentage{
+	$dna = shift;
+	return (int (100 * ($dna =~ tr/CGcg//)/(length $dna))).&amp;quot;%&amp;quot;;
+}	
+my $dna = &amp;quot;TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT&amp;quot;;
+print &amp;quot;cg percentage:&amp;quot;.cg_percentage($dna).&amp;quot;\n&amp;quot;;&lt;/code&gt;&lt;/pre&gt;</content>
  </entry>
  
  <entry>
