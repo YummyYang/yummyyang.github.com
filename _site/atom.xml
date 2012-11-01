@@ -4,13 +4,23 @@
  <title>Yummy Blog</title>
  <link href="http://yummyyang.github.com/atom.xml" rel="self"/>
  <link href="http://yummyyang.github.com"/>
- <updated>2012-10-25T09:49:01+08:00</updated>
+ <updated>2012-11-01T23:29:37+08:00</updated>
  <id>http://yummyyang.github.com</id>
  <author>
    <name>Yummy Yang</name>
    <email>blablabla@email.test</email>
  </author>
 
+ 
+ <entry>
+   <title>Perl Program List</title>
+   <link href="http://yummyyang.github.com/perl/2012/11/01/perl-program-list"/>
+   <updated>2012-11-01T00:00:00+08:00</updated>
+   <id>http://yummyyang.github.com/perl/2012/11/01/perl-program-list</id>
+   <content type="html">&lt;h2 id='mybioperl'&gt;MyBioPerl&lt;/h2&gt;
+
+&lt;p&gt;Perl Program List:&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>For memory</title>
