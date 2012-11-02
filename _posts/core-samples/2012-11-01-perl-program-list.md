@@ -14,10 +14,14 @@ The `MyBioPer` is my bio perl codes.
 Perl Program List:
 
 ## CG Rich:
-	sub cg_percentage{
-		$dna = shift;
-		return (int (100 * ($dna =~ tr/CGcg//)/(length $dna)))."%";
-	}	
-	my $dna = "TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT";
-	print "cg percentage:".cg_percentage($dna)."\n";
 
+{% highlight perl %}
+
+sub cg_percentage{
+	$dna = shift;
+	return (int (100 * ($dna =~ tr/CGcg//)/(length $dna)))."%";
+}	
+my $dna = "TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT";
+print "cg percentage:".cg_percentage($dna)."\n";
+
+{% endhighlight %}

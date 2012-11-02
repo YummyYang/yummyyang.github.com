@@ -4,7 +4,7 @@
  <title>Yummy Blog</title>
  <link href="http://yummyyang.github.com/atom.xml" rel="self"/>
  <link href="http://yummyyang.github.com"/>
- <updated>2012-11-02T15:43:54+08:00</updated>
+ <updated>2012-11-02T16:05:01+08:00</updated>
  <id>http://yummyyang.github.com</id>
  <author>
    <name>Yummy Yang</name>
@@ -25,14 +25,7 @@
 
 &lt;p&gt;Perl Program List:&lt;/p&gt;
 
-&lt;h2 id='cg_rich'&gt;CG Rich:&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;sub cg_percentage{
-	$dna = shift;
-	return (int (100 * ($dna =~ tr/CGcg//)/(length $dna))).&amp;quot;%&amp;quot;;
-}	
-my $dna = &amp;quot;TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT&amp;quot;;
-print &amp;quot;cg percentage:&amp;quot;.cg_percentage($dna).&amp;quot;\n&amp;quot;;&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;h2 id='cg_rich'&gt;CG Rich:&lt;/h2&gt;</content>
  </entry>
  
  <entry>
