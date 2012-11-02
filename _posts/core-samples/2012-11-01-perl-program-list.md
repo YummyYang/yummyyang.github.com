@@ -15,13 +15,11 @@ Perl Program List:
 
 ## CG Rich:
 
-{% highlight perl %}
-
+{% highlight perl linenos %}
 sub cg_percentage{
 	$dna = shift;
 	return (int (100 * ($dna =~ tr/CGcg//)/(length $dna)))."%";
 }	
 my $dna = "TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT";
 print "cg percentage:".cg_percentage($dna)."\n";
-
 {% endhighlight %}
