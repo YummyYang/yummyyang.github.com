@@ -161,7 +161,7 @@
 
 <pre><code>status : in the initial stage</code></pre>
 
-<p>Perl Program List:</p>
+<h2 id='program'>Program</h2>
 
 <h3 id='cg_rich'>CG Rich:</h3>
 <div class='highlight'><pre><code class='perl'><span class='lineno'>1</span> <span class='k'>sub </span><span class='nf'>cg_percentage</span><span class='p'>{</span>
@@ -185,6 +185,31 @@
 <span class='lineno'> 8</span> <span class='p'>}</span>
 <span class='lineno'> 9</span> <span class='k'>my</span> <span class='nv'>@file_data</span> <span class='o'>=</span> <span class='n'>get_file_data</span><span class='p'>(</span><span class='s'>&#39;get_file&#39;</span><span class='p'>);</span>
 <span class='lineno'>10</span> <span class='k'>print</span> <span class='nv'>@file_data</span><span class='p'>;</span>
+</code></pre>
+</div>
+<h2 id='other'>Other</h2>
+
+<h3 id='get_options'>Get options:</h3>
+<div class='highlight'><pre><code class='perl'><span class='lineno'> 1</span> <span class='c1'>#!/usr/bin/perl -w</span>
+<span class='lineno'> 2</span> <span class='cm'>=head1</span>
+<span class='lineno'> 3</span> <span class='cm'>Version 1.0</span>
+<span class='lineno'> 4</span> <span class='cm'>Author : YummyYang</span>
+<span class='lineno'> 5</span> <span class='cm'>Date : 2012.11.05</span>
+<span class='lineno'> 6</span> <span class='cm'>=head Example</span>
+<span class='lineno'> 7</span> <span class='cm'>	-a : [string] ,argument a</span>
+<span class='lineno'> 8</span> <span class='cm'>	-b : [string] ,argument b</span>
+<span class='lineno'> 9</span> <span class='cm'>Example : xxxx -a argu_a -b argu_b</span>
+<span class='lineno'>10</span> <span class='cm'>=cut</span>
+<span class='lineno'>11</span> <span class='k'>use</span> <span class='n'>strict</span><span class='p'>;</span>
+<span class='lineno'>12</span> <span class='k'>use</span> <span class='nn'>Getopt::</span><span class='n'>Long</span><span class='p'>;</span>
+<span class='lineno'>13</span> <span class='k'>my</span> <span class='p'>(</span><span class='nv'>$argu_a</span><span class='p'>,</span><span class='nv'>$argu_b</span><span class='p'>);</span>
+<span class='lineno'>14</span> <span class='n'>GetOptions</span><span class='p'>(</span>
+<span class='lineno'>15</span> 	<span class='s'>&quot;a:s&quot;</span> <span class='o'>=&gt;</span> <span class='o'>\</span><span class='nv'>$argu_a</span><span class='p'>;</span>
+<span class='lineno'>16</span> 	<span class='s'>&quot;b:s&quot;</span> <span class='o'>=&gt;</span> <span class='o'>\</span><span class='nv'>$argu_b</span><span class='p'>;</span>
+<span class='lineno'>17</span> <span class='p'>);</span>
+<span class='lineno'>18</span> <span class='nb'>die</span> <span class='sb'>`pod2text $0`</span> <span class='k'>if</span><span class='p'>(</span><span class='o'>!</span><span class='nv'>$argu_a</span> <span class='o'>||</span> <span class='o'>!</span><span class='nv'>$argu_b</span> <span class='p'>);</span>
+<span class='lineno'>19</span> <span class='k'>print</span> <span class='s'>&quot;a:$argu_a\n&quot;</span><span class='p'>;</span>
+<span class='lineno'>20</span> <span class='k'>print</span> <span class='s'>&quot;b:$argu_b\n&quot;</span><span class='p'>;</span>
 </code></pre>
 </div>
     <hr>

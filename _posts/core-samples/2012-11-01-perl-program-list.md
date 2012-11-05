@@ -11,7 +11,7 @@ The `MyBioPer` is my bio perl codes.
 
 	status : in the initial stage
 
-Perl Program List:
+##Program
 
 ### CG Rich:
 
@@ -37,6 +37,28 @@ sub get_file_data{
 }
 my @file_data = get_file_data('get_file');
 print @file_data;
-
 {% endhighlight %}
-
+##Other
+### Get options:
+{% highlight perl linenos %}
+#!/usr/bin/perl -w
+=head1
+Version 1.0
+Author : YummyYang
+Date : 2012.11.05
+=head Example
+	-a : [string] ,argument a
+	-b : [string] ,argument b
+Example : xxxx -a argu_a -b argu_b
+=cut
+use strict;
+use Getopt::Long;
+my ($argu_a,$argu_b);
+GetOptions(
+	"a:s" => \$argu_a;
+	"b:s" => \$argu_b;
+);
+die `pod2text $0` if(!$argu_a || !$argu_b );
+print "a:$argu_a\n";
+print "b:$argu_b\n";
+{% endhighlight %}
