@@ -38,7 +38,7 @@ sub get_file_data{
 my @file_data = get_file_data('get_file');
 print @file_data;
 {% endhighlight %}
-##Other
+##Others
 ### Get options:
 {% highlight perl linenos %}
 #!/usr/bin/perl -w
