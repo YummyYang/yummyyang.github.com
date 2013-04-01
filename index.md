@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello codes!
+title: Hello coder!
 tagline: This site is for you.
 ---
 {% include JB/setup %}
