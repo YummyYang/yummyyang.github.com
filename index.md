@@ -6,6 +6,12 @@ tagline: This site is for you.
 {% include JB/setup %}
 
 
+## Java
+
+For Spring.
+    
+      status: kickout
+
 ## R
 
 In `Rdemos` remember to specify your own environment if under Linux:

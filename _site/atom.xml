@@ -4,7 +4,7 @@
  <title>Yummy Blog</title>
  <link href="http://yummyyang.github.com/atom.xml" rel="self"/>
  <link href="http://yummyyang.github.com"/>
- <updated>2012-11-20T20:44:52+08:00</updated>
+ <updated>2013-04-24T16:39:56+08:00</updated>
  <id>http://yummyyang.github.com</id>
  <author>
    <name>Yummy Yang</name>
@@ -26,54 +26,51 @@
 &lt;h2 id='program'&gt;Program&lt;/h2&gt;
 
 &lt;h3 id='cg_rich'&gt;CG Rich:&lt;/h3&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='perl'&gt;&lt;span class='lineno'&gt;1&lt;/span&gt; &lt;span class='k'&gt;sub &lt;/span&gt;&lt;span class='nf'&gt;cg_percentage&lt;/span&gt;&lt;span class='p'&gt;{&lt;/span&gt;
-&lt;span class='lineno'&gt;2&lt;/span&gt; 	&lt;span class='nv'&gt;$dna&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='nb'&gt;shift&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;3&lt;/span&gt; 	&lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;int&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;100&lt;/span&gt; &lt;span class='o'&gt;*&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$dna&lt;/span&gt; &lt;span class='o'&gt;=~&lt;/span&gt; &lt;span class='nb'&gt;tr&lt;/span&gt;&lt;span class='sr'&gt;/CGcg//)/&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;length&lt;/span&gt; &lt;span class='nv'&gt;$dna&lt;/span&gt;&lt;span class='p'&gt;)))&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;%&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;4&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt;	
-&lt;span class='lineno'&gt;5&lt;/span&gt; &lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='nv'&gt;$dna&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;6&lt;/span&gt; &lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;cg percentage:&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;cg_percentage&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$dna&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='perl'&gt;&lt;span class='k'&gt;sub &lt;/span&gt;&lt;span class='nf'&gt;cg_percentage&lt;/span&gt;&lt;span class='p'&gt;{&lt;/span&gt;
+	&lt;span class='nv'&gt;$dna&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='nb'&gt;shift&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;int&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;100&lt;/span&gt; &lt;span class='o'&gt;*&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$dna&lt;/span&gt; &lt;span class='o'&gt;=~&lt;/span&gt; &lt;span class='nb'&gt;tr&lt;/span&gt;&lt;span class='sr'&gt;/CGcg//)/&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;length&lt;/span&gt; &lt;span class='nv'&gt;$dna&lt;/span&gt;&lt;span class='p'&gt;)))&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;%&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='p'&gt;}&lt;/span&gt;	
+&lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='nv'&gt;$dna&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;TTAtTTATTTTTTTTTTTTATCGGCATTTAACCGGGCCACTGGAACCT&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;cg percentage:&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;cg_percentage&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$dna&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id='utils'&gt;Utils&lt;/h2&gt;
 
 &lt;h3 id='get_file_data'&gt;Get File Data:&lt;/h3&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='perl'&gt;&lt;span class='lineno'&gt; 1&lt;/span&gt; &lt;span class='k'&gt;sub &lt;/span&gt;&lt;span class='nf'&gt;get_file_data&lt;/span&gt;&lt;span class='p'&gt;{&lt;/span&gt;
-&lt;span class='lineno'&gt; 2&lt;/span&gt; 	&lt;span class='k'&gt;my&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$file_name&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='nv'&gt;@_&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt; 3&lt;/span&gt; 	&lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='nv'&gt;@filedata&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;();&lt;/span&gt;
-&lt;span class='lineno'&gt; 4&lt;/span&gt; 	&lt;span class='nb'&gt;die&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Can&amp;#39;t open:$filename\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='k'&gt;unless&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;open&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;FILE&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='nv'&gt;$filename&lt;/span&gt;&lt;span class='p'&gt;));&lt;/span&gt;
-&lt;span class='lineno'&gt; 5&lt;/span&gt; 	&lt;span class='nv'&gt;@filedata&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='sr'&gt;&amp;lt;FILE&amp;gt;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt; 6&lt;/span&gt; 	&lt;span class='nb'&gt;close&lt;/span&gt; &lt;span class='n'&gt;FILE&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt; 7&lt;/span&gt; 	&lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='nv'&gt;@filedata&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt; 8&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt;
-&lt;span class='lineno'&gt; 9&lt;/span&gt; &lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='nv'&gt;@file_data&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;get_file_data&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;get_file&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
-&lt;span class='lineno'&gt;10&lt;/span&gt; &lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='nv'&gt;@file_data&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='perl'&gt;&lt;span class='k'&gt;sub &lt;/span&gt;&lt;span class='nf'&gt;get_file_data&lt;/span&gt;&lt;span class='p'&gt;{&lt;/span&gt;
+	&lt;span class='k'&gt;my&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$file_name&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='nv'&gt;@_&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='nv'&gt;@filedata&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;();&lt;/span&gt;
+	&lt;span class='nb'&gt;die&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Can&amp;#39;t open:$filename\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='k'&gt;unless&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;open&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;FILE&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='nv'&gt;$filename&lt;/span&gt;&lt;span class='p'&gt;));&lt;/span&gt;
+	&lt;span class='nv'&gt;@filedata&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='sr'&gt;&amp;lt;FILE&amp;gt;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='nb'&gt;close&lt;/span&gt; &lt;span class='n'&gt;FILE&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='nv'&gt;@filedata&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='p'&gt;}&lt;/span&gt;
+&lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='nv'&gt;@file_data&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;get_file_data&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;get_file&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='nv'&gt;@file_data&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id='others'&gt;Others&lt;/h2&gt;
 
 &lt;h3 id='get_options'&gt;Get options:&lt;/h3&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='perl'&gt;&lt;span class='lineno'&gt; 1&lt;/span&gt; &lt;span class='c1'&gt;#!/usr/bin/perl -w&lt;/span&gt;
-&lt;span class='lineno'&gt; 2&lt;/span&gt; &lt;span class='cm'&gt;=head1&lt;/span&gt;
-&lt;span class='lineno'&gt; 3&lt;/span&gt; &lt;span class='cm'&gt;Version 1.0&lt;/span&gt;
-&lt;span class='lineno'&gt; 4&lt;/span&gt; &lt;span class='cm'&gt;Author : YummyYang&lt;/span&gt;
-&lt;span class='lineno'&gt; 5&lt;/span&gt; &lt;span class='cm'&gt;Date : 2012.11.05&lt;/span&gt;
-&lt;span class='lineno'&gt; 6&lt;/span&gt; &lt;span class='cm'&gt;=head Example&lt;/span&gt;
-&lt;span class='lineno'&gt; 7&lt;/span&gt; &lt;span class='cm'&gt;	-a : [string] ,argument a&lt;/span&gt;
-&lt;span class='lineno'&gt; 8&lt;/span&gt; &lt;span class='cm'&gt;	-b : [string] ,argument b&lt;/span&gt;
-&lt;span class='lineno'&gt; 9&lt;/span&gt; &lt;span class='cm'&gt;Example : xxxx -a argu_a -b argu_b&lt;/span&gt;
-&lt;span class='lineno'&gt;10&lt;/span&gt; &lt;span class='cm'&gt;=cut&lt;/span&gt;
-&lt;span class='lineno'&gt;11&lt;/span&gt; &lt;span class='k'&gt;use&lt;/span&gt; &lt;span class='n'&gt;strict&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;12&lt;/span&gt; &lt;span class='k'&gt;use&lt;/span&gt; &lt;span class='nn'&gt;Getopt::&lt;/span&gt;&lt;span class='n'&gt;Long&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;13&lt;/span&gt; &lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$argu_a&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='nv'&gt;$argu_b&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
-&lt;span class='lineno'&gt;14&lt;/span&gt; &lt;span class='n'&gt;GetOptions&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;
-&lt;span class='lineno'&gt;15&lt;/span&gt; 	&lt;span class='s'&gt;&amp;quot;a:s&amp;quot;&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='o'&gt;\&lt;/span&gt;&lt;span class='nv'&gt;$argu_a&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;16&lt;/span&gt; 	&lt;span class='s'&gt;&amp;quot;b:s&amp;quot;&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='o'&gt;\&lt;/span&gt;&lt;span class='nv'&gt;$argu_b&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;17&lt;/span&gt; &lt;span class='p'&gt;);&lt;/span&gt;
-&lt;span class='lineno'&gt;18&lt;/span&gt; &lt;span class='nb'&gt;die&lt;/span&gt; &lt;span class='sb'&gt;`pod2text $0`&lt;/span&gt; &lt;span class='k'&gt;if&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;!&lt;/span&gt;&lt;span class='nv'&gt;$argu_a&lt;/span&gt; &lt;span class='o'&gt;||&lt;/span&gt; &lt;span class='o'&gt;!&lt;/span&gt;&lt;span class='nv'&gt;$argu_b&lt;/span&gt; &lt;span class='p'&gt;);&lt;/span&gt;
-&lt;span class='lineno'&gt;19&lt;/span&gt; &lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;a:$argu_a\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='lineno'&gt;20&lt;/span&gt; &lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;b:$argu_b\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content>
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='perl'&gt;&lt;span class='c1'&gt;#!/usr/bin/perl -w&lt;/span&gt;
+&lt;span class='cm'&gt;=head1&lt;/span&gt;
+&lt;span class='cm'&gt;Version 1.0&lt;/span&gt;
+&lt;span class='cm'&gt;Author : YummyYang&lt;/span&gt;
+&lt;span class='cm'&gt;Date : 2012.11.05&lt;/span&gt;
+&lt;span class='cm'&gt;=head Example&lt;/span&gt;
+&lt;span class='cm'&gt;	-a : [string] ,argument a&lt;/span&gt;
+&lt;span class='cm'&gt;	-b : [string] ,argument b&lt;/span&gt;
+&lt;span class='cm'&gt;Example : xxxx -a argu_a -b argu_b&lt;/span&gt;
+&lt;span class='cm'&gt;=cut&lt;/span&gt;
+&lt;span class='k'&gt;use&lt;/span&gt; &lt;span class='n'&gt;strict&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='k'&gt;use&lt;/span&gt; &lt;span class='nn'&gt;Getopt::&lt;/span&gt;&lt;span class='n'&gt;Long&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='k'&gt;my&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nv'&gt;$argu_a&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='nv'&gt;$argu_b&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;GetOptions&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;
+	&lt;span class='s'&gt;&amp;quot;a:s&amp;quot;&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='o'&gt;\&lt;/span&gt;&lt;span class='nv'&gt;$argu_a&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='s'&gt;&amp;quot;b:s&amp;quot;&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='o'&gt;\&lt;/span&gt;&lt;span class='nv'&gt;$argu_b&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='nb'&gt;die&lt;/span&gt; &lt;span class='sb'&gt;`pod2text $0`&lt;/span&gt; &lt;span class='k'&gt;if&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;!&lt;/span&gt;&lt;span class='nv'&gt;$argu_a&lt;/span&gt; &lt;span class='o'&gt;||&lt;/span&gt; &lt;span class='o'&gt;!&lt;/span&gt;&lt;span class='nv'&gt;$argu_b&lt;/span&gt; &lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;a:$argu_a\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;b:$argu_b\n&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
  </entry>
  
  <entry>
