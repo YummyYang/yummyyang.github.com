@@ -4,13 +4,23 @@
  <title>Yummy Blog</title>
  <link href="http://yummyyang.github.com/atom.xml" rel="self"/>
  <link href="http://yummyyang.github.com"/>
- <updated>2014-01-27T16:44:00+08:00</updated>
+ <updated>2014-01-29T11:36:49+08:00</updated>
  <id>http://yummyyang.github.com</id>
  <author>
    <name>Yummy Yang</name>
    <email>blablabla@email.test</email>
  </author>
 
+ 
+ <entry>
+   <title>Perl test2</title>
+   <link href="http://yummyyang.github.com/perl/2014/01/29/perl-test2"/>
+   <updated>2014-01-29T00:00:00+08:00</updated>
+   <id>http://yummyyang.github.com/perl/2014/01/29/perl-test2</id>
+   <content type="html">&lt;h3 id='test2'&gt;Test2&lt;/h3&gt;
+
+&lt;p&gt;test before remove &amp;#8216;_site&amp;#8217;. Attention : the &amp;#8216;_site&amp;#8217; must in &amp;#8221;. or use \ before &amp;#8216;site&amp;#8217;, if write _site directly, parser will say wrong.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>2 Demo</title>
