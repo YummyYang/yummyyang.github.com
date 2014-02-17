@@ -41,6 +41,6 @@ The progress of learning is still unfinished.
 
 The progress of learning is still unfinished. 
 If you'd like to be added as a contributor, please [fork](http://github.com/YummyYang/MyBioPerl)!
-We need to clean the codes, and make them better.
+I need to clean the codes, and make them better.
 
 
