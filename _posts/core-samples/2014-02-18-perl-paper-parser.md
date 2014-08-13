@@ -6,7 +6,7 @@ title: Paper Parser
 tagline: paper parser
 ---
 {% include JB/setup %}
-### Here is a Paper Parser demo.
+### Paper Parser demo ver 0.1
 At first , there has 353 pdf-format papers. I want to know which word is the 'most frequency word'.
 Those 353 papers name are in windows format , that means there has 'space' in the filename.
 {% highlight sh linenos %}
